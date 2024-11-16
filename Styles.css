@@ -1,0 +1,131 @@
+body{
+    background-color: antiquewhite;
+}
+#head{
+    position: absolute;
+    top:0px;
+    background-color:rgb(255, 255, 255);
+    width:70%;
+    height:30%;
+    right:0%;
+    left:10;
+}
+#body{
+    position: absolute;
+    top: 30%;
+    background-color:rgb(226, 226, 226);
+    width:70%;
+    height:100%;
+    right:0%;
+    left:10;
+    z-index: 1;
+}
+#cards{
+    display: grid;
+    grid-template-columns: repeat(2, 300px); 
+    grid-template-rows: repeat(3,300px);           
+    gap: 5px; 
+    text-align: center; 
+    font-size: larger;
+}
+#Side{
+    color: white;
+    position: absolute;
+    top:0px;
+    background-color:rgb(0, 149, 218);
+    width:30%;
+    height:130%;
+    z-index: 2;
+
+}
+#newbtn,#sharebtn,#uploadbtn{
+    position:absolute;
+    border-radius: 2em;
+    background-color: rgb(0, 149, 218);
+    font-size: medium;
+    top: 70%;
+    color:white
+}
+#newbtn{
+    right:25%;
+}
+#sharebtn{
+    right:2%;
+}
+#uploadbtn{
+    right:13%;
+}
+#dashboard{
+    position: absolute;
+    left: 0%;
+    top: 2.5%;
+    color: white;
+    width: 40px;
+    height:40px;
+}
+#dashboard,#home,#profile,#message,#history,#tasks,#communities,#setting,#support,#privacy{
+    position: absolute;
+    left: 0%;
+    color: white;
+    width: 40px;
+    height:40px;
+}
+#home{
+    top: 13%;
+}
+#profile{
+    top: 22%;
+}
+#message{
+    top: 32%;
+}
+#history{
+    top: 41%;
+}
+#tasks{
+    top: 51%;
+}
+#communities{
+    top: 61%;
+}
+#setting{
+    top: 75%;
+}
+#support{
+    top: 84%;
+}
+#privacy{
+    top: 94%;
+}
+#super, #less, #impossible, #easy, #ad, #money {  
+    border: 1px solid black; 
+    text-align: center; 
+    line-height: 50px;
+    position: absolute;                          
+}
+/*
+#super{
+    left: 5%;
+    top:10%;
+}
+#less{
+    left: 40%;
+    top:10%;
+}
+#impossible{
+    left: 5%;
+    top:30%;
+}
+#easy{
+    left: 40%;
+    top:30%;
+}
+#ad{
+    left: 5%;
+    top:50%;
+}
+#money{
+    left: 40%;
+    top:50%;
+} */
+
