@@ -15,28 +15,30 @@ body{
     top: 30%;
     background-color:rgb(226, 226, 226);
     width:70%;
-    height:100%;
+    height:max-content;
     right:0%;
     left:10;
-    z-index: 1;
+    z-index: 1;     
 }
 #cards{
     display: grid;
     grid-template-columns: repeat(2, 300px); 
     grid-template-rows: repeat(3,300px);           
-    gap: 5px; 
+    gap: 25px; 
     text-align: center; 
     font-size: larger;
 }
 #Side{
     color: white;
-    position: absolute;
+    position: fixed;
     top:0px;
     background-color:rgb(0, 149, 218);
     width:30%;
-    height:130%;
+    height:100%;
     z-index: 2;
-
+    display: flex;
+    flex-direction:column;
+    left: 0%;
 }
 #newbtn,#sharebtn,#uploadbtn{
     position:absolute;
@@ -55,20 +57,77 @@ body{
 #uploadbtn{
     right:13%;
 }
-#dashboard{
-    position: absolute;
-    left: 0%;
+#dashboardbtn{
+    position: fixed,absolute;
+    left: 3%;
     top: 2.5%;
     color: white;
     width: 40px;
     height:40px;
 }
-#dashboard,#home,#profile,#message,#history,#tasks,#communities,#setting,#support,#privacy{
-    position: absolute;
+#dashboard{
+    position: fixed;
+    left: 0%;
+    top: 1%;
+}
+#dashboardbtn,#homebtn,#profilebtn,#messagebtn,#historybtn,#tasksbtn,#communitiesbtn,#settingbtn,#supportbtn,#privacybtn{
+    position: fixed;
     left: 0%;
     color: white;
     width: 40px;
-    height:40px;
+    height:30px;
+}
+#homebtn{
+    top: 13%;
+}
+#profilebtn{
+    top: 22%;
+}
+#messagebtn{
+    top: 32%;
+}
+#historybtn{
+    top: 41%;
+}
+#tasksbtn{
+    top: 51%;
+}
+#communitiesbtn{
+    top: 61%;
+}
+#settingbtn{
+    top: 75%;
+}
+#supportbtn{
+    top: 84%;
+}
+#privacybtn{
+    top: 94%;
+}
+#super, #less, #impossible, #easy, #ad, #money {  
+    border: 1px solid black;
+    background-color: white; 
+    text-align: left; 
+    line-height: 50px;
+    position: absolute;
+    width: 30%;
+    border-radius: 10px;
+    height: 10%;       
+    font-size: small;           
+}
+#home,
+#profile,
+#message,
+#history,
+#tasks,
+#communities,
+#settings,
+#support,
+#privacy{
+    position:fixed;
+    left: 10px;
+    font-size: medium;
+
 }
 #home{
     top: 13%;
@@ -88,7 +147,7 @@ body{
 #communities{
     top: 61%;
 }
-#setting{
+#settings{
     top: 75%;
 }
 #support{
@@ -97,35 +156,89 @@ body{
 #privacy{
     top: 94%;
 }
-#super, #less, #impossible, #easy, #ad, #money {  
-    border: 1px solid black; 
-    text-align: center; 
-    line-height: 50px;
-    position: absolute;                          
-}
-/*
-#super{
-    left: 5%;
-    top:10%;
-}
-#less{
-    left: 40%;
-    top:10%;
-}
-#impossible{
-    left: 5%;
-    top:30%;
-}
-#easy{
-    left: 40%;
-    top:30%;
-}
-#ad{
-    left: 5%;
-    top:50%;
-}
-#money{
-    left: 40%;
-    top:50%;
-} */
 
+
+#super,#impossible,#ad{
+    left: 5%;
+}
+#less,#easy,#money{
+    left: 40%;
+}
+#super,#less{
+    top:10%;
+}
+#impossible,#easy{
+    top:30%;
+}
+#ad,#money{
+    top:50%;
+}
+#par1,#par2,#par3,#par4,#par5,#par6{
+    position: absolute;
+    font-size: small;
+}
+#par1,#par3,#par5{
+    left:5px;
+}
+#par2,#par4,#par6{
+    left:5px;
+}
+#par1,#par2{
+    top: 20px;
+}
+#par3,#par4{
+    top: 20px;
+}
+#par5,#par6{
+    top: 20px;
+}
+#favorite,#eye,#source{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+#favorite{
+    right: 35%;
+}
+#eye{
+    right: 20%;
+}
+#source{
+    right: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+/*.grid-item:nth-child(1) { 
+    grid-column: 1 / 2; 
+    grid-row: 1 / 2; 
+} 
+.grid-item:nth-child(2) { 
+    grid-column: 2 / 3; 
+    grid-row: 1 / 2; 
+} 
+.grid-item:nth-child(3) { 
+    grid-column: 1 / 3; 
+     grid-row: 2 /3;
+}
+*/
