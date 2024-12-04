@@ -206,7 +206,42 @@ body{
 #source{
     right: 5%;
 }
-
+#search{
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    z-index: 4;
+    width :30px;
+    height: 30px;
+}
+#head input[type="search"]{
+    position:absolute;
+    border-radius: 15px;
+    width: 50%;
+    height: 30px;
+    background-color: rgb(231, 231, 231);
+    border: 0;
+    left:10%;
+}
+#alert{
+    position: absolute;
+    top: 20px;
+    left: 75%;
+    z-index: 4;
+    width :30px;
+    height: 30px;
+}
+#mid-right{
+    position: absolute;
+    top:5%;
+    right: 5%;
+    width: 20%;
+}
+#minicards,#mini-cards{
+    background-color: white;
+    border-radius: 10px;
+    border: 0;
+}
 
 
 
