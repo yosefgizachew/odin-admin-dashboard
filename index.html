@@ -15,22 +15,31 @@
         &nbsp;&nbsp;&nbsp;&nbsp;<input type="search">
         <h2>&nbsp;&nbsp;&nbsp;&nbsp;Hi There!</h2>
         <h1>&nbsp;&nbsp;&nbsp;&nbsp;Morgan Oakley(@morgan)</h1>
-        <button id="newbtn">New</button>
-        <button id="uploadbtn">Upload</button>
-        <button id="sharebtn">Share</button>
+        <button id="signup" onclick="openPage1()">Sign up</button>
+        <button id="login" onclick="openPage()">Login</button>
     </div>
     <div id="Side">
         <h1 id="dashboard">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dashboard</h1><br>
-        <h2 id="home">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Home</h2><br>
-        <h2 id="profile">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Profile</h2><br>
-        <h2 id="message">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Messages</h2><br>
-        <h2 id="history">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;History</h2><br>
-        <h2 id="tasks">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tasks</h2><br>
-        <h2 id="communities">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Communities</h2><br>
+        <a href="#">
+        <h2 id="home">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Home</h2><br></a>
+        <a href="#">
+        <h2 id="profile">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Profile</h2><br></a>
+<a href="#">
+        <h2 id="message">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Messages</h2><br></a>
+ <a href="#">           
+        <h2 id="history">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;History</h2><br></a>
+<a href="#">
+        <h2 id="tasks">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tasks</h2><br></a>
+<a href="#">
+        <h2 id="communities">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Communities</h2><br></a>
         <br><br>
-        <h2 id="settings">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setting</h2><br>
-        <h2 id="support">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Support</h2><br>
-        <h2 id="privacy">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Privacy</h2><br>
+        <a href="#">
+        <h2 id="settings">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setting</h2><br></a>
+<a href="#">
+        <h2 id="support">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Support</h2><br></a>
+<a href="#">
+        <h2 id="privacy">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Privacy</h2><br></a>
+
         <img id="dashboardbtn" src="view-dashboard.svg" alt="dashboard">
         <img id="homebtn" src="home-variant.svg" alt="dashboard">
         <img id="profilebtn" src="card-account-details-outline.svg" alt="dashboard">
@@ -106,7 +115,12 @@
             <h7>@alex</h7><br><br>
         </div>
     </div>
+    <script> 
+    function openPage1() { 
+        window.location.href = 'signup.html'; } 
+        function openPage() { 
+            window.location.href = 'login.html'; }
+        </script>
 </body>
 </html>
-
 

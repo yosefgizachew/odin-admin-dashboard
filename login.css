@@ -1,0 +1,34 @@
+body{
+    background: linear-gradient(to right, red , blue);
+}
+#body{
+    background-color: rgba(0, 0, 0, 0.473);
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    padding: 50px;
+    left: 40%;
+    top: 25%;
+    text-align: center;
+}
+.btn{
+    border-radius: 12px;
+    border: none;
+    background-color: bisque;
+    width: 90%;
+    height: 25px;
+    text-align: center;
+}
+.input{
+    border-radius: 6px;
+    border: none;
+    height: 20px;
+}
+a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover{
+    color: aliceblue;
+}
